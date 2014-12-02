@@ -1,0 +1,32 @@
+{
+  "nodeGroups":[
+    {
+      "name": "master",
+      "roles": [
+        "zookeeper", "mesos_master"
+      ],
+      "instanceNum": 3,
+      "cpuNum": 2,
+      "memCapacityMB": 8192,
+      "storage": {
+        "type": "SHARED",
+        "sizeGB": 50
+      },
+      "haFlag": "on"
+    },
+    {
+      "name": "worker",
+      "roles": [
+        "mesos_worker"
+      ],
+      "instanceNum": 6,
+      "cpuNum": 2,
+      "memCapacityMB": 8192,
+      "storage": {
+        "type": "SHARED",
+        "sizeGB": 100
+      },
+      "haFlag": "on"
+    }
+  ]
+}

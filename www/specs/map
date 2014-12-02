@@ -1,0 +1,415 @@
+[
+  {
+    "vendor" : "Apache",
+    "version" : "^1(\\.\\w+)*",
+    "type" : "Basic Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/apache1.0/basic/spec.json"
+  },
+  {
+    "vendor" : "Apache",
+    "version" : "^1(\\.\\w+)*",
+    "type" : "Basic HBase Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/apache1.0/hbase/spec.json"
+  },
+  {
+    "vendor" : "Apache",
+    "version" : "^1(\\.\\w+)*",
+    "type" : "HBase Only Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/apache1.0/hbaseonly/spec.json"
+  },
+  {
+    "vendor" : "Apache",
+    "version" : "^1(\\.\\w+)*",
+    "type" : "Compute Only Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/apache1.0/conly/spec.json"
+  },
+  {
+    "vendor" : "Apache",
+    "version" : "^1(\\.\\w+)*",
+    "type" : "Data/Compute Separation Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/apache1.0/dcseparation/spec.json"
+  },
+  {
+    "vendor" : "Apache",
+    "version" : "^1(\\.\\w+)*",
+    "type" : "Compute Workers Only Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/apache1.0/workeronly/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^4(\\.\\w+)*",
+    "type" : "Basic Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/cdh4/basic/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^4(\\.\\w+)*",
+    "type" : "Basic HBase Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/cdh4/hbase/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^4(\\.\\w+)*",
+    "type" : "HBase Only Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/hbaseonly/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^4(\\.\\w+)*",
+    "type" : "Compute Only Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/cdh4/conly/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^4(\\.\\w+)*",
+    "type" : "Data/Compute Separation Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/cdh4/dcseparation/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^4(\\.\\w+)*",
+    "type" : "Compute Workers Only Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/cdh4/workeronly/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Basic Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/basic/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Basic HBase Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/hbase/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "HBase Only Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/hbaseonly/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Data/Compute Separation Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/dcseparation/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Compute Only Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/conly/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Compute Workers Only Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/workeronly/spec.json"
+  },
+  {
+    "vendor" : "PHD",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Basic Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/basic/spec.json"
+  },
+  {
+    "vendor" : "PHD",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Basic HBase Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/hbase/spec.json"
+  },
+  {
+    "vendor" : "PHD",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "HBase Only Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/hbaseonly/spec.json"
+  },
+  {
+    "vendor" : "PHD",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Data/Compute Separation Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/dcseparation/spec.json"
+  },
+  {
+    "vendor" : "PHD",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Compute Only Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/conly/spec.json"
+  },
+  {
+    "vendor" : "PHD",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Compute Workers Only Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/workeronly/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^1(\\.\\w+)*",
+    "type" : "Basic Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/apache1.0/basic/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^1(\\.\\w+)*",
+    "type" : "Basic HBase Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/apache1.0/hbase/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^1(\\.\\w+)*",
+    "type" : "HBase Only Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/apache1.0/hbaseonly/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^1(\\.\\w+)*",
+    "type" : "Compute Only Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/apache1.0/conly/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^1(\\.\\w+)*",
+    "type" : "Data/Compute Separation Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/apache1.0/dcseparation/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^1(\\.\\w+)*",
+    "type" : "Compute Workers Only Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/apache1.0/workeronly/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Basic Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/basic/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Basic HBase Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/hbase/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "HBase Only Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/hbaseonly/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Data/Compute Separation Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/dcseparation/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Compute Only Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/conly/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Compute Workers Only Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/workeronly/spec.json"
+  },
+  {
+    "vendor" : "MAPR",
+    "version" : "^2(\\.\\w+)*",
+    "type" : "Basic Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/mapr/basic/spec.json"
+  },
+  {
+    "vendor" : "MAPR",
+    "version" : "^2(\\.\\w+)*",
+    "type" : "Basic HBase Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/mapr/hbase/spec.json"
+  },
+  {
+    "vendor" : "MAPR",
+    "version" : "^2(\\.\\w+)*",
+    "type" : "Data/Compute Separation Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/mapr/dcseparation/spec.json"
+  },
+  {
+    "vendor" : "MAPR",
+    "version" : "^3(\\.\\w+)*",
+    "type" : "Basic Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/mapr3/basic/spec.json"
+  },
+  {
+    "vendor" : "MAPR",
+    "version" : "^3(\\.\\w+)*",
+    "type" : "Basic HBase Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/mapr3/hbase/spec.json"
+  },
+  {
+    "vendor" : "MAPR",
+    "version" : "^3(\\.\\w+)*",
+    "type" : "Data/Compute Separation Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/mapr3/dcseparation/spec.json"
+  },
+  {
+    "vendor" : "BIGTOP",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Basic Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/basic/spec.json"
+  },
+  {
+    "vendor" : "BIGTOP",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Basic HBase Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/hbase/spec.json"
+  },
+  {
+    "vendor" : "BIGTOP",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "HBase Only Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/hbaseonly/spec.json"
+  },
+  {
+    "vendor" : "BIGTOP",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Data/Compute Separation Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/dcseparation/spec.json"
+  },
+  {
+    "vendor" : "BIGTOP",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Compute Only Hadoop Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/conly/spec.json"
+  },
+  {
+    "vendor" : "BIGTOP",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Compute Workers Only Cluster",
+    "appManager" : "Default",
+    "path" : "Ironfan/hadoop2/workeronly/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^4(\\.\\w+)*",
+    "type" : "Basic Hadoop Cluster",
+    "appManager" : "ClouderaManager",
+    "path" : "ClouderaManager/cdh4/basic/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Basic Hadoop Cluster",
+    "appManager" : "ClouderaManager",
+    "path" : "ClouderaManager/cdh5/basic/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^4(\\.\\w+)*",
+    "type" : "Basic HBase Cluster",
+    "appManager" : "ClouderaManager",
+    "path" : "ClouderaManager/cdh4/hbase/spec.json"
+  },
+  {
+    "vendor" : "CDH",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Basic HBase Cluster",
+    "appManager" : "ClouderaManager",
+    "path" : "ClouderaManager/cdh5/hbase/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^1(\\.\\w+)*",
+    "type" : "Basic Hadoop Cluster",
+    "appManager" : "Ambari",
+    "path" : "Ambari/hdp1/basic/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^1(\\.\\w+)*",
+    "type" : "Basic Hbase Cluster",
+    "appManager" : "Ambari",
+    "path" : "Ambari/hdp1/hbase/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^2\\.0(\\.\\w+)*",
+    "type" : "Basic Hadoop Cluster",
+    "appManager" : "Ambari",
+    "path" : "Ambari/hdp2_0/basic/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^2\\.0(\\.\\w+)*",
+    "type" : "Basic Hbase Cluster",
+    "appManager" : "Ambari",
+    "path" : "Ambari/hdp2_0/hbase/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Basic Hadoop Cluster",
+    "appManager" : "Ambari",
+    "path" : "Ambari/hdp2_1/basic/spec.json"
+  },
+  {
+    "vendor" : "HDP",
+    "version" : "^\\w+(\\.\\w+)*",
+    "type" : "Basic Hbase Cluster",
+    "appManager" : "Ambari",
+    "path" : "Ambari/hdp2_1/hbase/spec.json"
+  },
+  {
+    "vendor" : "MESOSPHERE",
+    "version" : "^0(\\.\\w+\\.\\w+)*,
+    "type" : "Mesos Cluster",
+    "appManager" : "Default",
+    "path" : "Mesos/spec.json"
+  }
+]

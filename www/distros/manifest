@@ -1,0 +1,24 @@
+[
+  {
+    "name" : "bigtop",
+    "vendor" : "BIGTOP",
+    "version" : "0.8.0",
+    "packages" : [
+      {
+        "roles" : ["hadoop_namenode", "hadoop_datanode", "hadoop_resourcemanager", "hadoop_nodemanager", "hadoop_journalnode", "hadoop_client", "hive", "hive_server", "pig", "hbase_master", "hbase_regionserver", "hbase_client", "zookeeper"],
+        "package_repos" : ["https://hadoop-mgmt.or1.omniture.com/yum/bigtop.repo"]
+      }
+    ]
+  },
+  {
+    "name" : "mesos",
+    "vendor" : "MESOSPHERE",
+    "version" : "0.20.1",
+    "packages" : [
+      {
+        "roles" : ["mesos_master", "mesos_worker", "zookeeper"],
+        "package_repos" : ["https://hadoop-mgmt.or1.omniture.com/yum/mesos.repo"]
+      }
+    ]
+ }
+]
