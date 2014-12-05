@@ -2,9 +2,11 @@
   "nodeGroups":[
     {
       "name": "master",
+      "description": "Mesos cluster master service with Zookeeper functionality.",
       "roles": [
         "zookeeper", "mesos_master"
       ],
+      "groupType": "master"
       "instanceNum": 3,
       "cpuNum": 2,
       "memCapacityMB": 8192,
@@ -12,19 +14,23 @@
         "type": "SHARED",
         "sizeGB": 50
       },
-      "haFlag": "on"
+      "haFlag": "on",
+      "editable": "false"
     },
     {
       "name": "worker",
+      "description": "Mesos cluster worker server. User can specifiy size of the VM.",
       "roles": [
         "mesos_worker"
       ],
-      "instanceNum": 6,
-      "cpuNum": 2,
-      "memCapacityMB": 8192,
+      "instanceType": "[MEDIUM,SMALL,LARGE]",
+      "groupType": "worker",
+      "instanceNum": "[6,1,max]",
+      "cpuNum": "[4,2,8]",
+      "memCapacityMB": "[8192,4096,16384]",
       "storage": {
         "type": "SHARED",
-        "sizeGB": 100
+        "sizeGB": "[100,50,max]"
       },
       "haFlag": "on"
     }

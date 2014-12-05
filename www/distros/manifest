@@ -13,7 +13,7 @@
   {
     "name" : "mesos",
     "vendor" : "MESOSPHERE",
-    "version" : "0.20.1",
+    "version" : "0.21.0",
     "packages" : [
       {
         "roles" : ["mesos_master", "mesos_worker", "zookeeper"],

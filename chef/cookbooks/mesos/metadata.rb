@@ -2,7 +2,7 @@ maintainer	 "Chris Mutchler"
 maintainer_email "chris@virtualelephant.com"
 license		 "Apache 2.0"
 description	 "Installs/Configures mesosphere stack"
-version		 "0.1.0"
+version		 "0.1.1"
 
 description	 "Installs/Configures mesosphere stack using Mesosphere official CentOS repository"
 
